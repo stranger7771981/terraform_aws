@@ -4,7 +4,7 @@ name: Create EC2 instance
 on:
   push:
     branches:
-      - "main"
+      - main
 jobs:
   terraform:
     runs-on: ubuntu-latest
